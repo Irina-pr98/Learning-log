@@ -15,23 +15,23 @@ Learning Log - это веб-приложение, разработанное с
 
 1. Клонируйте репозиторий
     ```sh
-    $ git clone https://github.com/Irina-pr98/Learning-log.git
-    $ cd learning-log
+    git clone https://github.com/Irina-pr98/Learning-log.git
+    cd learning-log
     ```
     
 3. Установите зависимости
    ```sh
-   $ pip install -r requirements.txt
+   pip install -r requirements.txt
    ```
     
 4. Выполните миграции базы данных
    ```sh
-   $ python manage.py migrate
+   python manage.py migrate
    ```
    
 5. Запустите сервер разработки
    ```sh
-   $ python manage.py runserver
+   python manage.py runserver
    ```
    
 6. Откройте приложение в веб-браузере
